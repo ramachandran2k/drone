@@ -16,6 +16,29 @@
   --max: 1180px;
 }
 
+/* Home video hero */
+.home-video-hero {
+  width: 100%;
+  min-height: 100vh;
+  background: #050505;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  overflow: hidden;
+}
+.home-video-hero iframe {
+  width: 100%;
+  height: 100vh;
+  border: 0;
+}
+@media (max-width: 680px) {
+  .home-video-hero,
+  .home-video-hero iframe {
+    min-height: 72vh;
+    height: 72vh;
+  }
+}
+
 /* Homepage video embed */
 .video-section {
   background: #0b0d10;
